@@ -28,7 +28,7 @@ const projects = [
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb1.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/chanduimasha/Portfolio-NextJs",
   },
   {
     num: "02",
@@ -38,7 +38,7 @@ const projects = [
     stack: [{ name: "React.js" }, { name: "Css-3" }, { name: "Javascript" }],
     image: "/assets/work/thumb2.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/chanduimasha/portfolio",
   },
 ];
 
