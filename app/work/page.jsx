@@ -26,7 +26,7 @@ const projects = [
     title: "project 1",
     description: "A fully functional eCommerce web application built with Next.js, Node.js, and MongoDB. The platform offers a seamless shopping experience, secure user authentication, efficient product management, and a streamlined checkout process. This project demonstrates expertise in full-stack development, database management, and the creation of scalable, user-friendly applications.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }, { name: "MongoDB" }],
-    image: "/assets/work/work1.jpg",
+    image: "/assets/work/work1.JPG",
     live: "",
     github: "https://github.com/chanduimasha/ecommerce-web-application",
   },
