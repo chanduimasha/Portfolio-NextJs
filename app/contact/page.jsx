@@ -178,8 +178,7 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-fuchsia-500">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Quaerat commodi quae accusamus dicta excepturi.
+              Thank you for visiting my portfolio! If you have any questions, collaboration opportunities, or just want to connect, feel free to reach out. I look forward to hearing from you!
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input
