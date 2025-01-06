@@ -22,18 +22,28 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Full Stack",
     title: "project 1",
-    description: "Explore my Next.js portfolio, showcasing my expertise in building dynamic, server-rendered applications with a focus on performance and user experience.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb1.jpg",
+    description: "A fully functional eCommerce web application built with Next.js, Node.js, and MongoDB. The platform offers a seamless shopping experience, secure user authentication, efficient product management, and a streamlined checkout process. This project demonstrates expertise in full-stack development, database management, and the creation of scalable, user-friendly applications.",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }, { name: "MongoDB" }],
+    image: "/assets/work/work1.JPG",
     live: "",
-    github: "https://github.com/chanduimasha/Portfolio-NextJs",
+    github: "https://github.com/chanduimasha/ecommerce-web-application",
   },
   {
     num: "02",
-    category: "frontend",
+    category: "Frontend",
     title: "project 2",
+    description: "Explore my Next.js portfolio, showcasing my expertise in building dynamic, server-rendered applications with a focus on performance and user experience.",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    image: "/assets/work/thumb1.jpg",
+    live: "https://www.chandu-rathnayake.click/",
+    github: "https://github.com/chanduimasha/Portfolio-NextJs",
+  },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "project 3",
     description: "Visit my React.js portfolio, where I highlight my ability to create interactive, client-side applications that prioritize responsiveness and modern design.",
     stack: [{ name: "React.js" }, { name: "Css-3" }, { name: "Javascript" }],
     image: "/assets/work/thumb2.jpg",
@@ -67,7 +77,7 @@ const Work = () => {
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-fuchsia-500 transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category} Project
               </h2>
               <p className="text-white/60">{project.description}</p>
               <ul className="fles gap-4">

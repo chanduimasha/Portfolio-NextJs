@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.2.3",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
     "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-scroll-area": "^1.2.0",
     "@radix-ui/react-select": "^2.1.2",
@@ -18,9 +21,14 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "emailjs-com": "^3.2.0",
+<<<<<<< HEAD
     "framer-motion": "^11.11.8",
+=======
+    "framer-motion": "^11.13.1",
+>>>>>>> 0c8240d22d68f10a6dc015f73fda8534360357d1
     "lucide-react": "^0.451.0",
     "next": "14.2.15",
+    "nodemailer": "^6.9.16",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
