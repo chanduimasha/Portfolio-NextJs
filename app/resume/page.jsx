@@ -51,7 +51,7 @@ const experience = {
   items: [
     {
       company: "Green Way Asia Lanka (Pvt) Ltd",
-      position: "System Support Engineer",
+      position: "Software Engineer",
       duration: "2023-2024",
     },
     {
